@@ -43,10 +43,10 @@ function formatPagination(value) {
                 }
 
             // Validar se o número é maior que zero
-            value = validateSignal(value)
+            value = validateSignal(Number(value))
 
             // Calcular a paginação
-            value = calculatePagination(value)
+            value = calculatePagination(Number(value))
 
             return {
                 error: false,
@@ -57,10 +57,10 @@ function formatPagination(value) {
 
         case "number":
             // Validar se o número é maior que zero
-            value = validateSignal(value)
+            value = validateSignal(Number(value))
 
             // Calcular a paginação
-            value = calculatePagination(value)
+            value = calculatePagination(Number(value))
 
             return {
                 error: false,
