@@ -1,0 +1,20 @@
+{
+  "name": "paging-pattern-util",
+  "version": "1.0.0",
+  "description": "Pacote para formatação da paginação quando necessária no OFFSET do querys SQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firminofl/paging-pattern-offset.git"
+  },
+  "keywords": ["paging", "format pagging", "OFFSET", "SQL", "pagination"],
+  "author": "Filipe Firmino Lemos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firminofl/paging-pattern-offset/issues"
+  },
+  "homepage": "https://github.com/firminofl/paging-pattern-offset#readme"
+}
