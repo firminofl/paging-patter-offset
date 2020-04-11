@@ -1,5 +1,5 @@
 {
-  "name": "paging-pattern-util",
+  "name": "paging-pattern-offset",
   "version": "1.0.0",
   "description": "Pacote para formatação da paginação quando necessária no OFFSET do querys SQL.",
   "main": "index.js",
