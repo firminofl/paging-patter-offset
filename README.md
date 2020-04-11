@@ -3,11 +3,11 @@
 Como usar?
 
 ```shell
-npm i paging-pattern-util
+npm i paging-pattern-offset
 ```
 
 ```js
-const { formatPagination } = require("paging-pattern-util")
+const { formatPagination } = require("paging-pattern-offset")
 ```
 
 - formatPagination(value): 
