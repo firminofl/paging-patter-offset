@@ -18,10 +18,10 @@ const { formatPagination } = require("paging-pattern-offset")
 
 ```json
 {
-    error,
-    value,
-    valueType,
-    message
+    "error"
+    "value"
+    "valueType"
+    "message"
 }
 ```
 
