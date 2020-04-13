@@ -1,5 +1,14 @@
 # Função de tratamento de paginação
 
+## Descrição
+Projeto criado para validação da paginação que será inserida em uma query SQL como no exemplo.
+O qual estamos simulando paginar no banco de dados, os usuários que pertencem a uma determinada cidade.
+
+Exemplo: SELECT * FROM usuarios, cidades  
+    WHERE usuarios_fk = usuarios_id 
+    ORDER BY usuarios_id 
+    DESC LIMIT 10 OFFSET ${pagination};
+
 ## Como usar?
 
 ```shell
